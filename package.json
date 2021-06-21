@@ -1,25 +1,30 @@
 {
-	"name": "mask-js",
-	"version": "0.0.1",
-	"description": "EXPERIMENT: A NPM package that exports functions to mask values.",
-	"main": "build/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/stevenbjohnson/mask-js.git"
-	},
-	"keywords": [
-		"npm",
-		"node",
-		"mask",
-		"javascript"
-	],
-	"author": "Steven Johnson",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/stevenbjohnson/mask-js/issues"
-	},
-	"homepage": "https://github.com/stevenbjohnson/mask-js#readme"
+  "name": "mask-js",
+  "version": "0.0.1",
+  "description": "EXPERIMENT: A NPM package that exports functions to mask values.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel ./src -d ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbjohnson/mask-js.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "mask",
+    "javascript"
+  ],
+  "author": "Steven Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenbjohnson/mask-js/issues"
+  },
+  "homepage": "https://github.com/stevenbjohnson/mask-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
